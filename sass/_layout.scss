@@ -1,0 +1,35 @@
+
+/* Global */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $body-color;
+  font-family: $text-phont; 
+  //color: $main-color;
+}
+
+.sidebar .topbar {
+ position: fixed;
+
+ }
+
+.top-bar {
+    z-index: 1;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background:$sidebar-color;
+    color: $sidebarFont-color;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
