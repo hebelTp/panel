@@ -5,8 +5,12 @@
 @import "layout";
 
 /* Components */
-@import "components/_icons";
+@import "./components/icons";
+@import "./components/sidebar-btn";
+@import "./components/toggle";
+@import "./components/avatar";
 /* Sections */
-
+@import "sections/sidebar";
+@import "./sections/top-bar";
 /* Pages */
 

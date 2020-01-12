@@ -1,0 +1,8 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin border-horisontal {
+    border-left: 1px solid $sidebarFont-color;
+}

@@ -10,94 +10,209 @@
     </head>
     <body>
         
-        <section class="sidebar" >
-            <div class="sidebar__wrapper">
-            <h2>Just do it</h2>
-            <ul class="sidebar__item-list">    
-                <li class="sidebar__item"> 
+       
+        <div class="wrapper">
+            <section class="top-bar">
+                <ul class="top-bar__list">
+                    <li class="top-bar__item-text">
+                        <div class="top-bar__image">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                            viewBox="0 0 17 18" style="enable-background:new 0 0 17 18;" xml:space="preserve">
+                            <path d="M17,9h-2V7.5C15,6.1,13.9,5,12.5,5H4.9L12,2.2V4h1V0.8L2.1,5C0.9,5.2,0,6.3,0,7.5v8C0,16.9,1.1,18,2.5,18h10
+	                            c1.4,0,2.5-1.1,2.5-2.5V14h2V9z M14,15.5c0,0.8-0.7,1.5-1.5,1.5h-10C1.7,17,1,16.3,1,15.5v-8C1,6.7,1.7,6,2.5,6h10
+	                            C13.3,6,14,6.7,14,7.5V9H8.5C7.1,9,6,10.1,6,11.5S7.1,14,8.5,14H14V15.5z M16,13H8.5C7.7,13,7,12.3,7,11.5S7.7,10,8.5,10H16V13z"/>
+                            </svg>
+                        </div>
+                        <h3 class="top-bar__sum">$1500,000</h3>
+                        <div class="top-bar__image">    
+                            <svg version="1.1"  id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                            viewBox="0 0 7 5" width= "12px" style="enable-background:new 0 0 7 5;" xml:space="preserve">
+                            <polygon points="3.5,4.2 0.1,0.9 0.9,0.1 3.5,2.8 6.1,0.1 6.9,0.9 "/>
+                        </svg>
+                        </div>
+                    </li>
+                    
+                    <li class="top-bar__item-icon">
+                        <div class="top-bar__image">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                            viewBox="0 0 18 19" style="enable-background:new 0 0 18 19;" xml:space="preserve">
+                            <path d="M17,16l-2.4-3.7V6.5c0-3-2.5-5.5-5.5-5.5S3.6,3.5,3.6,6.5v5.8L1.1,16h5.5c0.2,1.1,1.2,2,2.4,2s2.2-0.9,2.4-2H17z M4.6,6.5
+	                            C4.6,4,6.6,2,9.1,2s4.5,2,4.5,4.5V12h-9V6.5z M4.3,13h9.5l1.3,2H3L4.3,13z M9.1,17c-0.7,0-1.2-0.4-1.4-1h2.8
+	                            C10.3,16.6,9.7,17,9.1,17z"/>
+                            </svg>
+                        </div>
+                    </li>
+
+                    <li class="top-bar__item-text">
+                        <div class="top-bar__image">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                            viewBox="0 0 19 19" style="enable-background:new 0 0 19 19;" xml:space="preserve">
+                            <path d="M9.5,4C7.6,4,6,5.6,6,7.5S7.6,11,9.5,11S13,9.4,13,7.5S11.4,4,9.5,4z M9.5,10C8.1,10,7,8.9,7,7.5S8.1,5,9.5,5S12,6.1,12,7.5
+                                S10.9,10,9.5,10z M9.5,1C4.8,1,1,4.8,1,9.5S4.8,18,9.5,18S18,14.2,18,9.5S14.2,1,9.5,1z M14,15.5c0-1.8-0.1-3.5-1.3-4.8l-0.7,0.7
+                                c1.1,1.1,1.1,2.7,1.1,4.5l0,0.3c-1,0.6-2.2,0.9-3.5,0.9S7,16.7,6,16.1l0-0.3c0-1.8,0-3.4,1.1-4.5l-0.7-0.7C5.1,12,5,13.7,5,15.5
+                                c-1.8-1.4-3-3.5-3-6C2,5.4,5.4,2,9.5,2S17,5.4,17,9.5C17,11.9,15.8,14.1,14,15.5z"/>
+                            </svg>
+                        </div>
+                        <h3 class="top-bar__name">Leonardo Dicaprio</h3>
+                    </li>
+                    
+                    <li class="top-bar__item-icon">
+                        <div class="top-bar__image">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                            viewBox="0 0 19 15" style="enable-background:new 0 0 19 15;" xml:space="preserve">
+                            <path d="M13.9,3.1l-0.7,0.7L16.3,7H3v1h13.3l-3.1,3.1l0.7,0.7l4.4-4.4L13.9,3.1z M10,14H1V1h9v3h1V0H0v15h11v-4h-1V14z"/>
+                            </svg>
+                        </div>
+                    </li>
+                </ul>
+            </section>  
+            <section class="sidebar">
+                <h2 class="sidebar__logo">Just do it</h2>
+                <div class="sidebar__toggle-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </div>
+                <ul class="sidebar__item-list">    
+                    <li class="sidebar__item"> 
                         <a href="#" class="sidebar__link">
-                            <svg class="link__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                viewBox="0 0 16 16" style="enable-background:new 0 0 14 13;" xml:space="preserve">
-                            <path d="M8.5,3.6l0.9,2.7L9.6,7h0.7h2.8l-2.3,1.6l-0.6,0.4l0.2,0.7l0.9,2.7l-2.3-1.6l-0.6-0.4l-0.6,0.4l-2.3,1.6l0.9-2.7l0.2-0.7
-                                L6.1,8.6L3.9,7h2.8h0.7l0.2-0.7L8.5,3.6 M8.5,0.4L6.7,6H0.8l4.8,3.5L3.7,15l4.8-3.5l4.8,3.5l-1.8-5.6L16.2,6h-5.9L8.5,0.4L8.5,0.4z"/>
-                        </svg>General
+                            <div class="sidebar__btn">
+                                <div class="sidebar__image">    
+                                    <svg class="link__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 17 16" style="enable-background:new 0 0 17 16;" xml:space="preserve">
+                                    <path d="M8.5,3.6l0.9,2.7L9.6,7h0.7h2.8l-2.3,1.6l-0.6,0.4l0.2,0.7l0.9,2.7l-2.3-1.6l-0.6-0.4l-0.6,0.4l-2.3,1.6l0.9-2.7l0.2-0.7
+                                    L6.1,8.6L3.9,7h2.8h0.7l0.2-0.7L8.5,3.6 M8.5,0.4L6.7,6H0.8l4.8,3.5L3.7,15l4.8-3.5l4.8,3.5l-1.8-5.6L16.2,6h-5.9L8.5,0.4L8.5,0.4z"/>
+                                    </svg>
+                                </div>
+                                <h4 class="sidebar__title">General</h4>
+                            </div>
                         </a>
                     </li>
-                    <li class="sidebar__item">
+                    <li class="sidebar__item"> 
                         <a href="#" class="sidebar__link">
-                            <svg class="link__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                viewBox="0 0 14 14" style="enable-background:new 0 0 14 13;" xml:space="preserve">
-                            <path d="M0,13h14v-1H0V13z M0,10h14V6H0V10z M9,7h4v2H9V7z M1,7h7v2H1V7z M0,0v4h14V0H0z M5,3H1V1h4V3z M13,3H6V1h7V3z"/>
-                        </svg>Details
+                            <div class="sidebar__btn">
+                                <div class="sidebar__image">
+                                    <svg class="link__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 14 14" style="enable-background:new 0 0 14 13;" xml:space="preserve">
+                                    <path d="M0,13h14v-1H0V13z M0,10h14V6H0V10z M9,7h4v2H9V7z M1,7h7v2H1V7z M0,0v4h14V0H0z M5,3H1V1h4V3z M13,3H6V1h7V3z"/>
+                                    </svg>
+                                </div>
+                                <h4 class="sidebar__title">Details</h4>
+                            </div>
                         </a>
                     </li>
-                    <li class="sidebar__item">
+                    <li class="sidebar__item"> 
                         <a href="#" class="sidebar__link">
-                            <svg class="link__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                viewBox="0 0 17 17" style="enable-background:new 0 0 17 17;" xml:space="preserve">
-                            <path d="M7,8H5C3.3,8,2,6.7,2,5s1.3-3,3-3h1V1H5C2.8,1,1,2.8,1,5s1.8,4,4,4h2c2.2,0,4-1.8,4-4h-1C10,6.7,8.7,8,7,8z M13,1h-2
-                                C8.8,1,7,2.8,7,5h1c0-1.7,1.3-3,3-3h2c1.7,0,3,1.3,3,3s-1.3,3-3,3h-1v1h1c2.2,0,4-1.8,4-4S15.2,1,13,1z"/>
-                            </svg>Links
+                            <div class="sidebar__btn">
+                                <div class="sidebar__image">
+                                    <svg class="link__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 17 17" style="enable-background:new 0 0 17 17;" xml:space="preserve">
+                                    <path d="M7,8H5C3.3,8,2,6.7,2,5s1.3-3,3-3h1V1H5C2.8,1,1,2.8,1,5s1.8,4,4,4h2c2.2,0,4-1.8,4-4h-1C10,6.7,8.7,8,7,8z M13,1h-2
+                                        C8.8,1,7,2.8,7,5h1c0-1.7,1.3-3,3-3h2c1.7,0,3,1.3,3,3s-1.3,3-3,3h-1v1h1c2.2,0,4-1.8,4-4S15.2,1,13,1z"/>
+                                    </svg>
+                                </div>
+                                <h4 class="sidebar__title">Links</h4>
+                            </div>
                         </a>
                     </li>
-                    <li class="sidebar__item">
+                    <li class="sidebar__item"> 
                         <a href="#" class="sidebar__link">
-                            <svg class="link__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                viewBox="0 0 15 15" style="enable-background:new 0 0 15 15;" xml:space="preserve">
-                            <path d="M0,6h6V0H0V6z M1,1h4v4H1V1z M8,0v8h6V0H8z M13,7H9V1h4V7z M0,13h6V8H0V13z M1,9h4v3H1V9z M8,13h6v-3H8V13z M9,11h4v1H9V11z"/>
-                            </svg> Banners       
+                            <div class="sidebar__btn">
+                                <div class="sidebar__image">
+                                    <svg class="link__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 15 15" style="enable-background:new 0 0 15 15;" xml:space="preserve">
+                                    <path d="M0,6h6V0H0V6z M1,1h4v4H1V1z M8,0v8h6V0H8z M13,7H9V1h4V7z M0,13h6V8H0V13z M1,9h4v3H1V9z M8,13h6v-3H8V13z M9,11h4v1H9V11z"/>
+                                    </svg>
+                                </div>
+                                <h4 class="sidebar__title">Banners</h4>
+                            </div>
                         </a>
                     </li>
-                    <li class="sidebar__item">
+                    <li class="sidebar__item"> 
                         <a href="#" class="sidebar__link">
-                            <svg class="link__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                viewBox="0 0 13 14" style="enable-background:new 0 0 13 14;" xml:space="preserve">
-                            <path d="M4.5,8C6.4,8,8,6.4,8,4.5S6.4,1,4.5,1S1,2.6,1,4.5S2.6,8,4.5,8z M4.5,2C5.9,2,7,3.1,7,4.5S5.9,7,4.5,7S2,5.9,2,4.5
-                                S3.1,2,4.5,2z M7.7,7.7L6.9,8.3C8,9.5,8,11.1,8,12.9V13H1v-0.1C1,11.1,1,9.5,2,8.3L1.3,7.7C0,9.1,0,10.9,0,12.9L0,14h9l0-1.1
-                                C9,10.9,9,9.1,7.7,7.7z"/>
-                            </svg>Personal data
+                            <div class="sidebar__btn">
+                                <div class="sidebar__image">
+                                    <svg class="link__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 13 14" style="enable-background:new 0 0 13 14;" xml:space="preserve">
+                                    <path d="M4.5,8C6.4,8,8,6.4,8,4.5S6.4,1,4.5,1S1,2.6,1,4.5S2.6,8,4.5,8z M4.5,2C5.9,2,7,3.1,7,4.5S5.9,7,4.5,7S2,5.9,2,4.5
+                                        S3.1,2,4.5,2z M7.7,7.7L6.9,8.3C8,9.5,8,11.1,8,12.9V13H1v-0.1C1,11.1,1,9.5,2,8.3L1.3,7.7C0,9.1,0,10.9,0,12.9L0,14h9l0-1.1
+                                        C9,10.9,9,9.1,7.7,7.7z"/>
+                                    </svg>
+                                </div>
+                                <h4 class="sidebar__title">Personal data</h4>
+                            </div>
                         </a>
                     </li>
-                    <li class="sidebar__item">
+                    <li class="sidebar__item"> 
                         <a href="#" class="sidebar__link">
-                            <svg class="link__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                viewBox="0 0 13 13" style="enable-background:new 0 0 13 13;" xml:space="preserve">
-                            <path d="M10.5,0h-8C1.1,0,0,1.1,0,2.5v8C0,11.9,1.1,13,2.5,13h8c1.4,0,2.5-1.1,2.5-2.5v-8C13,1.1,11.9,0,10.5,0z M1,10.5v-8
-                                C1,1.7,1.7,1,2.5,1H6v2H5C3.9,3,3,3.9,3,5s0.9,2,2,2h1v2H4v1h2v2H2.5C1.7,12,1,11.3,1,10.5z M6,4v2H5C4.4,6,4,5.6,4,5s0.4-1,1-1H6z
-                                M7,7h1c0.6,0,1,0.4,1,1c0,0.6-0.4,1-1,1H7V7z M12,10.5c0,0.8-0.7,1.5-1.5,1.5H7v-2h1c1.1,0,2-0.9,2-2c0-1.1-0.9-2-2-2H7V4h2V3H7V1
-                                h3.5C11.3,1,12,1.7,12,2.5V10.5z"/>
-                            </svg>Payout
+                            <div class="sidebar__btn">
+                                <div class="sidebar__image">
+                                    <svg class="link__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 14 15" style="enable-background:new 0 0 14 15;" xml:space="preserve">
+                                    <path d="M10.5,0h-8C1.1,0,0,1.1,0,2.5v8C0,11.9,1.1,13,2.5,13h8c1.4,0,2.5-1.1,2.5-2.5v-8C13,1.1,11.9,0,10.5,0z M1,10.5v-8
+                                        C1,1.7,1.7,1,2.5,1H6v2H5C3.9,3,3,3.9,3,5s0.9,2,2,2h1v2H4v1h2v2H2.5C1.7,12,1,11.3,1,10.5z M6,4v2H5C4.4,6,4,5.6,4,5s0.4-1,1-1H6z
+                                        M7,7h1c0.6,0,1,0.4,1,1c0,0.6-0.4,1-1,1H7V7z M12,10.5c0,0.8-0.7,1.5-1.5,1.5H7v-2h1c1.1,0,2-0.9,2-2c0-1.1-0.9-2-2-2H7V4h2V3H7V1
+                                        h3.5C11.3,1,12,1.7,12,2.5V10.5z"/>
+                                    </svg>
+                                </div>
+                                <h4 class="sidebar__title">Payout</h4>
+                            </div>
                         </a>
                     </li>
-                    <li class="sidebar__item">
+                    <li class="sidebar__item"> 
                         <a href="#" class="sidebar__link">
-                            <svg class="link__icon" width="18px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                viewBox="0 0 14 15" style="enable-background:new 0 0 14 15;" xml:space="preserve">
-                            <path d="M7.5,4H2.7l2.1-2.1L4.1,1.1L0.8,4.5l3.4,3.4l0.7-0.7L2.7,5h4.8C10,5,12,7,12,9.5S10,14,7.5,14H1v1h6.5c3,0,5.5-2.5,5.5-5.5
-                                C13,6.5,10.5,4,7.5,4z M8,11H1v1h7V11z"/>
-                            </svg>Postback
+                            <div class="sidebar__btn">
+                                <div class="sidebar__image">
+                                    <svg class="link__icon" width="18px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 14 15" style="enable-background:new 0 0 14 15;" xml:space="preserve">
+                                    <path d="M7.5,4H2.7l2.1-2.1L4.1,1.1L0.8,4.5l3.4,3.4l0.7-0.7L2.7,5h4.8C10,5,12,7,12,9.5S10,14,7.5,14H1v1h6.5c3,0,5.5-2.5,5.5-5.5
+                                        C13,6.5,10.5,4,7.5,4z M8,11H1v1h7V11z"/>
+                                    </svg>
+                                </div>
+                                <h4 class="sidebar__title">Postback</h4>
+                            </div>
                         </a>
                     </li>
                 </ul>
-            </div>
-        </section>
-        
+                <div class="sidebar__personel">
+                <h4 class="sidebar__position">Your manager</h4>
+                    <ul class="sidebar__personel-list">
+                        <li class="sidebar__personel-member">
+                            <div class="sidebar__avatar">
+                                <img class="sidebar__avatar-img" src="./images/img_avatar2.png" alt="avatar">
+                            </div>
+                            <h4 class="sidebar__name">Joanne R.</h4>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="main-content">
+                <h2>main</h2>
+                    <div class="container">
+                        <div class="page general">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et accumsan leo. Vivamus consectetur justo in mi fringilla laoreet. Sed euismod feugiat libero, non commodo lacus gravida vitae. Mauris iaculis eu justo vel egestas. Donec ac eros cursus, feugiat lorem sit amet, mattis lectus. Curabitur elementum hendrerit ultricies. Proin congue turpis et diam ultricies scelerisque. Vestibulum leo sem, lobortis sit amet sodales quis, sagittis non dolor. Aenean sed tristique elit. Aenean tellus massa, sollicitudin id iaculis a, aliquam ut tortor. Fusce facilisis dignissim diam, eget elementum sem. Suspendisse potenti. Quisque ac odio id libero hendrerit venenatis.
 
-        <section class="top-bar">
-            <div class="top-bar__wrapper">
-              <p>top-bar</p>
-            </div>
-        </section>
+                                Vestibulum at efficitur augue. Proin a interdum leo, ut feugiat odio. Nullam dignissim nunc eu metus dignissim, vel mollis urna semper. Vestibulum sodales leo rhoncus mauris egestas ultrices. Vivamus sit amet efficitur nunc. Nunc pretium ante a nibh egestas venenatis. Sed vehicula dapibus nisi, eget varius ligula tristique nec. Duis sed sapien at urna sollicitudin consequat. Sed non risus blandit, tincidunt lorem nec, blandit neque. Fusce iaculis nisl iaculis lacus rhoncus, nec maximus nisl aliquet. Nulla at commodo nisi, sit amet bibendum velit. In fringilla aliquam pretium. Maecenas tristique consectetur dui, in tincidunt lacus cursus ac. Vestibulum auctor urna neque, et mollis ligula pellentesque non. In venenatis porta ipsum, at facilisis ante.
+                                
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sem odio, posuere ac massa ac, feugiat interdum sapien. Etiam vitae faucibus leo. Morbi vel viverra leo. Vivamus ut leo id risus bibendum dapibus ac eget lacus. Nam eu dui porta, maximus turpis ut, tincidunt eros. Mauris in gravida eros, ut pretium urna. Integer imperdiet urna odio, at ultrices enim aliquet eget. Etiam eget diam quis enim lacinia elementum. Quisque vulputate sed felis a pellentesque. Mauris elementum volutpat laoreet. Phasellus maximus venenatis euismod. Morbi varius elit lobortis metus tempus lacinia.</p>
+                        </div>
+                        <div class="page links">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et accumsan leo. Vivamus consectetur justo in mi fringilla laoreet. Sed euismod feugiat libero, non commodo lacus gravida vitae. Mauris iaculis eu justo vel egestas. Donec ac eros cursus, feugiat lorem sit amet, mattis lectus. Curabitur elementum hendrerit ultricies. Proin congue turpis et diam ultricies scelerisque. Vestibulum leo sem, lobortis sit amet sodales quis, sagittis non dolor. Aenean sed tristique elit. Aenean tellus massa, sollicitudin id iaculis a, aliquam ut tortor. Fusce facilisis dignissim diam, eget elementum sem. Suspendisse potenti. Quisque ac odio id libero hendrerit venenatis.
+
+                                Vestibulum at efficitur augue. Proin a interdum leo, ut feugiat odio. Nullam dignissim nunc eu metus dignissim, vel mollis urna semper. Vestibulum sodales leo rhoncus mauris egestas ultrices. Vivamus sit amet efficitur nunc. Nunc pretium ante a nibh egestas venenatis. Sed vehicula dapibus nisi, eget varius ligula tristique nec. Duis sed sapien at urna sollicitudin consequat. Sed non risus blandit, tincidunt lorem nec, blandit neque. Fusce iaculis nisl iaculis lacus rhoncus, nec maximus nisl aliquet. Nulla at commodo nisi, sit amet bibendum velit. In fringilla aliquam pretium. Maecenas tristique consectetur dui, in tincidunt lacus cursus ac. Vestibulum auctor urna neque, et mollis ligula pellentesque non. In venenatis porta ipsum, at facilisis ante.
+
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sem odio, posuere ac massa ac, feugiat interdum sapien. Etiam vitae faucibus leo. Morbi vel viverra leo. Vivamus ut leo id risus bibendum dapibus ac eget lacus. Nam eu dui porta, maximus turpis ut, tincidunt eros. Mauris in gravida eros, ut pretium urna. Integer imperdiet urna odio, at ultrices enim aliquet eget. Etiam eget diam quis enim lacinia elementum. Quisque vulputate sed felis a pellentesque. Mauris elementum volutpat laoreet. Phasellus maximus venenatis euismod. Morbi varius elit lobortis metus tempus lacinia.
+
+                                Mauris facilisis nisl at nunc dictum consectetur. Integer ut odio viverra, fermentum metus quis, lacinia enim. Aliquam at tellus finibus, maximus metus ut, finibus ligula. Pellentesque ac magna posuere, hendrerit dolor at, pellentesque felis. Phasellus consectetur ut nunc in hendrerit. Nullam hendrerit ante nec tristique porttitor. Nam turpis enim, cursus sit amet enim et, lobortis vehicula mauris. Ut molestie faucibus turpis, vel vulputate nulla molestie sed. Aenean eget felis eget massa ullamcorper imperdiet in nec odio. Nam tempor urna libero, a molestie libero mollis vel. Donec vitae purus augue. Aenean lobortis sollicitudin dolor, non mollis erat hendrerit eu. Curabitur ultrices non nunc in commodo. Mauris maximus gravida purus, gravida ultrices leo condimentum in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vestibulum nunc sapien, eget pharetra dui dignissim sed.
+
+                                Suspendisse facilisis lorem magna, vitae sodales justo porta quis. Nunc non sapien turpis. Cras eget nisi non erat eleifend egestas id non lorem. Nunc id risus nisi. Mauris cursus leo eu tincidunt tincidunt. Mauris ultricies sagittis diam ullamcorper hendrerit. Nunc cursus aliquam molestie. Nam aliquam elementum hendrerit. Aenean vitae diam vitae dolor condimentum mattis.
+
+                                Integer vulputate pellentesque mauris nec malesuada. Aliquam ornare tellus sit amet est vestibulum, a posuere urna maximus. Fusce vel imperdiet nunc. Phasellus id dui quis ligula fermentum mollis at eget leo. Pellentesque venenatis mattis eros, sed pellentesque metus elementum eu. Donec efficitur mattis leo, ut ultricies dolor accumsan ut. Proin eu tortor id nulla luctus sollicitudin ut a justo. Mauris in diam finibus dolor congue auctor. Etiam at dignissim augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras quis enim a nulla laoreet commodo.</p>
+                        </div>
+                    </div>    
+            </section>
         
-        <section class="main-content">
-            <div class="container">
-                <div class="page general">
-                </div>
-                <div class="page links">
-                </div>
-            </div>    
-        </section>
-        
+    </div>
         <script src="js/script.js"></script>   
     </body>
 </html>
