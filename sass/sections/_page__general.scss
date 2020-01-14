@@ -6,7 +6,8 @@
     @include center();
     height: 100px;
     @include border-vertical();
-    //flex-direction: row;
+    overflow: hidden;
+   
 }
 .statistic__wrapper {
     @include center();
@@ -14,7 +15,7 @@
 }
 .statistic__container {
     max-width: 1000px;
-    width: 75%;
+   // width: 80%;
     margin: 0;
 }
 .statistic__text {
@@ -29,13 +30,13 @@
     display: flex;
     justify-content: space-between;
     flex:40%;
-    height: 40px;
+    //height: 40px;
     @include border-vertical();
-    padding-bottom: 10px;
+    //padding-bottom: 10px;
 }
 .statistic__name {
     color:$loginName-color;
-    margin-left: 15px;
+   // margin-left: 15px;
     
 }
 .statistic__text-visit, .statistic__text-ftd {
