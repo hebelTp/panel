@@ -9,11 +9,11 @@
     overflow: hidden;
    
 }
-.statistic__wrapper {
+.statistic__wrapper, .links__wrapper {
     @include center();
     flex-direction: column;
 }
-.statistic__container {
+.statistic__container, .links__container {
     max-width: 1000px;
    // width: 80%;
     margin: 0;

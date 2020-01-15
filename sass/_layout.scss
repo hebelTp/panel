@@ -5,7 +5,7 @@
 }
 
 img {
-  width: 100%;
+  width: 50%;
 }
 
 body {
@@ -52,12 +52,11 @@ body {
   // .page__calendar {
   //   width: 50vw;
   // }
-  .sidebar, .top-bar, .page__calendar-image {
+  .sidebar, .top-bar, .page__calendar-image, .sidebar__personel, .sidebar__mobile-list.active, .mobile-bar__list.active {
     display:none;
   }
   .main-content{
     padding: 0;
-    
   }
   .calendar__wrapper, .chart__btn {
     flex-direction: column;
@@ -84,7 +83,7 @@ body {
     position: absolute;
     z-index: 1;
     width: 100%;
-    height: 100%;
+    //height: 100%;
     .sidebar__toggle-btn {
       position: static;
       margin-right: 20px;
@@ -108,7 +107,13 @@ body {
     display: flex;
     justify-content: space-between;
   }
-
+   .mobile-bar__list li {
+     height: 40px;
+    }
+    .page__general {
+      margin-top: 80px;
+    }
+  
 }
 
 @media (max-width: 387px){
