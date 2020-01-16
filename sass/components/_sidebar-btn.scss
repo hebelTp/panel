@@ -9,8 +9,6 @@
     border-left: 3px solid $sidebarLineActive-color;
     background-color: $sidebar-colorActive;
     color: #ffffff;
-    
-    
 }
 .sidebar__image {
     width: 20px;
@@ -18,15 +16,14 @@
     margin-right: 10px;
 }
 .sidebar__link {
-text-decoration: none;
-color: $sidebarFont-color;
-
+    text-decoration: none;
+    color: $sidebarFont-color;
 }
 .sidebar__item {
     height: 40px;
     width: 100%; 
 }
 .sidebar__item-list {
-list-style: none;
-padding: 0px;
+    list-style: none;
+    padding: 0px;
 }

@@ -1,12 +1,8 @@
-// input[type = "submit"] {
-    
-// }
 .btn {
     @include center();
     height: 40px;
     border-radius: 4px;
 }
-
 .btn__reload {
     width: 40px;
     font-weight: 300;
@@ -26,13 +22,10 @@
     font-weight: 300;
     height: 40px;
     border-radius: 4px;
-    
     .statistic__name:hover {     
         color:$sidebarFont-color;
     }   
 }
-
-//$frame-color
 .chart__link {
     text-decoration: none;
 }
@@ -40,13 +33,12 @@
     width: 15px;
     height: 15px;
     border-radius: 10px;
-    
 }
 .circle__signups {
     background-color: $loginName-color;
 }
 .circle__ftd {
-background-color: $sidebarLineActive-color;
+    background-color: $sidebarLineActive-color;
 }
 .circle__earned{
     background-color: $green-juice;

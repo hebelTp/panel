@@ -11,21 +11,17 @@ $mainSection:#ffffff;
 $frame-color: #E3E3E3;
 $green-juice: #04AE00;
 
-
 /* login */
 $loginName-color: #56819F;
 $loginLogo: #A5A5A5;
 
 /*fonts*/
 $text-phont: 'Roboto', sans-serif;
-
 $text-font-size: 16px;
-
 $font-normal: 400;
 $font-bold: 700;
 $font-light: 300;
-@font-face 
-{
+@font-face {
 font-family: reklame script;
 src: url(/Fonts/reklamescript-regular_demo.otf);
 }
